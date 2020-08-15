@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <label>Input: </label><input type="text" name="input" id="input" disabled="true">
+    <button onclick="predictOutput(document.getElementById('input').value)" disabled="true" id="go">Go</button>
+    <button onclick="train_data()" id="train">Train Data</button>
+    <div id=result></div>
+  </body>
+</html>

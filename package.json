@@ -1,0 +1,11 @@
+{
+  "name": "tensorflow_js",
+  "version": "1.0.0",
+  "description": "Tensor flow JS Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vivek Rajyaguru",
+  "license": "ISC"
+}
